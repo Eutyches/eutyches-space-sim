@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<joystick configversion="19" appversion="3.1.5">
+    <!--The SDL name for a joystick is included for informational purposes only.-->
+    <sdlname>Thrustmaster T.16000M</sdlname>
+    <!--The Unique ID for a joystick is included for informational purposes only.-->
+    <uniqueID>030000004f0400000ab1000011010000</uniqueID>
+    <sets>
+        <set index="1">
+            <axis index="2">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>normal</throttle>
+            </axis>
+            <axis index="1">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>normal</throttle>
+            </axis>
+            <axis index="4">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>normal</throttle>
+            </axis>
+            <axis index="3">
+                <center_value>0</center_value>
+                <min_value>-32767</min_value>
+                <max_value>32767</max_value>
+                <throttle>normal</throttle>
+            </axis>
+            <button index="1">
+                <slots>
+                    <slot>
+                        <code>0x11000021</code>
+                        <mode>keyboard</mode>
+                    </slot>
+                </slots>
+            </button>
+        </set>
+    </sets>
+</joystick>
