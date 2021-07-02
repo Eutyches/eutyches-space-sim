@@ -70,7 +70,7 @@
     <Input Event="YawLeft" Name="UI_Event_YawLeft" Tooltip="UI_Event_YawLeft_Tooltip" Type="ToggleButton" GroupID="0" Order="100"/>
     <Input Event="YawRight" Name="UI_Event_YawRight" Tooltip="UI_Event_YawRight_Tooltip" Type="ToggleButton" GroupID="0" Order="200"/>
     <Input Event="Pitch" Name="UI_Event_Pitch" Tooltip="UI_Event_Pitch_Tooltip" Keys="joystick1axis1" Type="AxisY" GroupID="0" Order="300"/>
-    <Input Event="PitchUp" Name="UI_Event_PitchUp" Tooltip="UI_Event_PitchUp_Tooltip" SecKeys="" Type="ToggleButton" GroupID="0" Order="400"/>
+    <Input Event="PitchUp" Name="UI_Event_PitchUp" Tooltip="UI_Event_PitchUp_Tooltip" Type="ToggleButton" GroupID="0" Order="400"/>
     <Input Event="PitchDown" Name="UI_Event_PitchDown" Tooltip="UI_Event_PitchDown_Tooltip" Type="ToggleButton" GroupID="0" Order="500"/>
     <Input Event="Roll" Name="UI_Event_Roll" Tooltip="UI_Event_Roll_Tooltip" SecKeys="joystick1axis2" Type="AxisX" GroupID="0" Order="600"/>
     <Input Event="RollLeft" Name="UI_Event_RollLeft" Tooltip="UI_Event_RollLeft_Tooltip" Keys="q" Type="ToggleButton" GroupID="0" Order="700"/>
@@ -160,25 +160,25 @@
     <Input Event="WeaponGroup9" Name="UI_Event_WeaponGroup9" Tooltip="UI_Event_WeaponGroup9_Tooltip" Keys="0" Type="ToggleButton" GroupID="3" Order="32000"/>
     <Input Event="GameMenu" Name="UI_Event_Game_Menu" Tooltip="UI_Event_Game_Menu_Tooltip" Keys="tab" SecKeys="joystick0button10" Type="ToggleButton" GroupID="4" Order="40000"/>
     <Input Event="SystemsMenu" Name="UI_Event_Systems_Menu" Tooltip="UI_Event_Systems_Menu_Tooltip" Keys="v" SecKeys="joystick0button11" Type="ToggleButton" GroupID="4" Order="40100"/>
-    <Input Event="CommsMenu" Name="UI_Event_Comms_Menu" Tooltip="UI_Event_Comms_Menu_Tooltip" Keys="c" SecKeys="joystick0button15" Type="ToggleButton" GroupID="4" Order="40200"/>
+    <Input Event="CommsMenu" Name="UI_Event_Comms_Menu" Tooltip="UI_Event_Comms_Menu_Tooltip" Keys="c" SecKeys="joystick0button13" Type="ToggleButton" GroupID="4" Order="40200"/>
     <Input Event="Warp" Name="UI_Event_Warp" Tooltip="UI_Event_Warp_Tooltip" Keys="j" SecKeys="joystick0button7" Type="ToggleButton" GroupID="4" Order="40300"/>
     <Input Event="Radar" Name="UI_Event_Radar" Tooltip="UI_Event_Radar_Tooltip" Keys="quote" SecKeys="joystick0button4" Type="ToggleButton" GroupID="4" Order="40400"/>
     <Input Event="Power" Name="UI_Event_Power" Tooltip="UI_Event_Power_Tooltip" Keys="p" SecKeys="joystick0button8" Type="ToggleButton" GroupID="4" Order="40500"/>
     <Input Event="FrontLights" Name="UI_Event_FrontLights" Tooltip="UI_Event_FrontLights_Tooltip" Keys="l" SecKeys="joystick0button9" Type="ToggleButton" GroupID="4" Order="40600"/>
-    <Input Event="PrevScanFreq" Name="UI_Event_PrevScanFreq" Tooltip="UI_Event_PrevScanFreq_Tooltip" Keys="leftctrl + y" Type="ToggleButton" GroupID="4" Order="40800"/>
-    <Input Event="NextScanFreq" Name="UI_Event_NextScanFreq" Tooltip="UI_Event_NextScanFreq_Tooltip" Keys="leftctrl + u" Type="ToggleButton" GroupID="4" Order="40700"/>
-    <Input Event="SwitchOvercharge" Name="UI_Event_SwitchOvercharge" Tooltip="UI_Event_SwitchOvercharge_Tooltip" Type="ToggleButton" GroupID="4" Order="40900"/>
-    <Input Event="SwitchOverchargeOff" Name="UI_Event_SwitchOverchargeOff" Tooltip="UI_Event_SwitchOverchargeOff_Tooltip" Type="ToggleButton" GroupID="4" Order="41000"/>
-    <Input Event="SwitchOverchargeEngine" Name="UI_Event_SwitchOverchargeEngine" Tooltip="UI_Event_SwitchOverchargeEngine_Tooltip" Type="ToggleButton" GroupID="4" Order="41100"/>
-    <Input Event="SwitchOverchargeShields" Name="UI_Event_SwitchOverchargeShields" Tooltip="UI_Event_SwitchOverchargeShields_Tooltip" Type="ToggleButton" GroupID="4" Order="41200"/>
-    <Input Event="SwitchOverchargeWeapons" Name="UI_Event_SwitchOverchargeWeapons" Tooltip="UI_Event_SwitchOverchargeWeapons_Tooltip" Type="ToggleButton" GroupID="4" Order="41300"/>
+    <Input Event="PrevScanFreq" Name="UI_Event_PrevScanFreq" Tooltip="UI_Event_PrevScanFreq_Tooltip" Keys="leftctrl + y" SecKeys="joystick0button0 + rightctrl + joystick0button6" Type="ToggleButton" GroupID="4" Order="40800"/>
+    <Input Event="NextScanFreq" Name="UI_Event_NextScanFreq" Tooltip="UI_Event_NextScanFreq_Tooltip" Keys="leftctrl + u" SecKeys="joystick0button6" Type="ToggleButton" GroupID="4" Order="40700"/>
+    <Input Event="SwitchOvercharge" Name="UI_Event_SwitchOvercharge" Tooltip="UI_Event_SwitchOvercharge_Tooltip" SecKeys="joystick1button14" Type="ToggleButton" GroupID="4" Order="40900"/>
+    <Input Event="SwitchOverchargeOff" Name="UI_Event_SwitchOverchargeOff" Tooltip="UI_Event_SwitchOverchargeOff_Tooltip" SecKeys="joystick1button13" Type="ToggleButton" GroupID="4" Order="41000"/>
+    <Input Event="SwitchOverchargeEngine" Name="UI_Event_SwitchOverchargeEngine" Tooltip="UI_Event_SwitchOverchargeEngine_Tooltip" SecKeys="joystick1button12" Type="ToggleButton" GroupID="4" Order="41100"/>
+    <Input Event="SwitchOverchargeShields" Name="UI_Event_SwitchOverchargeShields" Tooltip="UI_Event_SwitchOverchargeShields_Tooltip" SecKeys="joystick1button11" Type="ToggleButton" GroupID="4" Order="41200"/>
+    <Input Event="SwitchOverchargeWeapons" Name="UI_Event_SwitchOverchargeWeapons" Tooltip="UI_Event_SwitchOverchargeWeapons_Tooltip" SecKeys="joystick1button10" Type="ToggleButton" GroupID="4" Order="41300"/>
     <Input Event="CameraCockpitMode" Name="UI_Event_CameraCockpitMode" Tooltip="UI_Event_CameraCockpitMode_Tooltip" Keys="f1" SecKeys="joystick1button4" Type="ToggleButton" GroupID="5" Order="50000"/>
     <Input Event="CameraExternalMode" Name="UI_Event_CameraExternalMode" Tooltip="UI_Event_CameraExternalMode_Tooltip" Keys="f2" SecKeys="joystick1button5" Type="ToggleButton" GroupID="5" Order="50100"/>
     <Input Event="CameraNextMode" Name="UI_Event_CameraNextMode" Tooltip="UI_Event_CameraNextMode_Tooltip" SecKeys="joystick1button6" Type="ToggleButton" GroupID="5" Order="50200"/>
     <Input Event="ViewReset" Name="UI_Event_ViewReset" Tooltip="UI_Event_ViewReset_Tooltip" Keys="leftctrl" DoubleTap="true" Type="ToggleButton" GroupID="5" Order="50300"/>
     <Input Event="ViewDist" Name="UI_Event_ViewDist" Tooltip="UI_Event_ViewDist_Tooltip" Keys="leftctrl + mousewheel" SecKeys="joystick1axis3" Type="Throttle" GroupID="5" Order="50400"/>
-    <Input Event="Zoom" Name="UI_Event_Zoom" Tooltip="UI_Event_Zoom_Tooltip" Keys="z" Type="ToggleButton" GroupID="5" Order="50500"/>
-    <Input Event="CycleZoomMode" Name="UI_Event_CycleZoomMode" Tooltip="UI_Event_CycleZoomMode_Tooltip" Type="ToggleButton" GroupID="5" Order="50600"/>
+    <Input Event="Zoom" Name="UI_Event_Zoom" Tooltip="UI_Event_Zoom_Tooltip" Keys="z" SecKeys="joystick1button9" Type="ToggleButton" GroupID="5" Order="50500"/>
+    <Input Event="CycleZoomMode" Name="UI_Event_CycleZoomMode" Tooltip="UI_Event_CycleZoomMode_Tooltip" SecKeys="rightctrl + joystick0button0 + joystick1button9" Type="ToggleButton" GroupID="5" Order="50600"/>
     <Input Event="CursorX" Name="UI_Event_CursorX" Tooltip="UI_Event_CursorX_Tooltip" Keys="mouseaxisx" Type="AxisX" GroupID="6" Order="60000"/>
     <Input Event="CursorY" Name="UI_Event_CursorY" Tooltip="UI_Event_CursorY_Tooltip" Keys="mouseaxisy" Type="AxisY" GroupID="6" Order="60100"/>
     <Input Event="Select" Name="UI_Event_Select" Tooltip="UI_Event_Select_Tooltip" Keys="space" SecKeys="joystick1button0" Type="ToggleButton" GroupID="6" Order="60200"/>
@@ -187,10 +187,10 @@
     <Input Event="Next" Name="UI_Event_Next" Tooltip="UI_Event_Next_Tooltip" SecKeys="joystick1button17" Type="ToggleButton" GroupID="6" Order="60400"/>
     <Input Event="MainMenu" Name="UI_Event_Main_Menu" Tooltip="UI_Event_Main_Menu_Tooltip" Keys="escape" Type="ToggleButton" GroupID="6" Order="60600"/>
     <Input Event="Exit" Name="UI_Event_Exit" Tooltip="UI_Event_Exit_Tooltip" Keys="leftalt + f4" Type="ToggleButton" GroupID="6" Order="60700"/>
-    <Input Event="KeyboardMap" Name="UI_Event_KeyboardMap" Tooltip="UI_Event_KeyboardMap_Tooltip" Keys="f9" Type="ToggleButton" GroupID="6" Order="60800"/>
-    <Input Event="Screenshot" Name="UI_Event_Screenshot" Tooltip="UI_Event_Screenshot_Tooltip" Keys="f11" Type="ToggleButton" GroupID="6" Order="60900"/>
+    <Input Event="KeyboardMap" Name="UI_Event_KeyboardMap" Tooltip="UI_Event_KeyboardMap_Tooltip" Keys="f9" SecKeys="joystick1button8" Type="ToggleButton" GroupID="6" Order="60800"/>
+    <Input Event="Screenshot" Name="UI_Event_Screenshot" Tooltip="UI_Event_Screenshot_Tooltip" Keys="f11" SecKeys="joystick0button15" Type="ToggleButton" GroupID="6" Order="60900"/>
     <Input Event="Debug" Name="UI_Event_Debug" Tooltip="UI_Event_Debug_Tooltip" Keys="f10" Type="ToggleButton" GroupID="6" Order="61000"/>
-    <Input Event="HUDMode" Name="UI_Event_HUDMode" Tooltip="UI_Event_HUDMode_Tooltip" Keys="f3" Type="ToggleButton" GroupID="6" Order="61100"/>
+    <Input Event="HUDMode" Name="UI_Event_HUDMode" Tooltip="UI_Event_HUDMode_Tooltip" Keys="f3" SecKeys="joystick1button7" Type="ToggleButton" GroupID="6" Order="61100"/>
     <Input Event="MFD" Name="UI_Event_MFD" Tooltip="UI_Event_MFD_Tooltip" Keys="f4" Type="ToggleButton" GroupID="6" Order="61150"/>
     <Input Event="Music" Name="UI_Event_Music" Tooltip="UI_Event_Music_Tooltip" Type="ToggleButton" GroupID="6" Order="61200"/>
     <Input Event="MineFire" Name="UI_Event_MineFire" Tooltip="UI_Event_MineFire_Tooltip" Keys="m" SecKeys="joystick1button3" Type="ToggleButton" GroupID="3" Order="30350"/>
