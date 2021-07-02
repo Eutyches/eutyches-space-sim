@@ -86,8 +86,8 @@
     <Input Event="Backward" Name="UI_Event_Backward" Tooltip="UI_Event_Backward_Tooltip" Keys="s" Type="ToggleButton" GroupID="0" Order="1700"/>
     <Input Event="Turbo" Name="UI_Event_Turbo" Tooltip="UI_Event_Turbo_Tooltip" Keys="leftshift" SecKeys="joystick0button3" Type="ToggleButton" GroupID="0" Order="1800"/>
     <Input Event="Brake" Name="UI_Event_Brake" Tooltip="UI_Event_Brake_Tooltip" Keys="space" SecKeys="joystick0button0 + rightctrl + joystick0button3" Type="ToggleButton" GroupID="0" Order="1900"/>
-    <Input Event="ViewYaw" Name="UI_Event_ViewYaw" Tooltip="UI_Event_ViewYaw_Tooltip" Keys="leftctrl + mouseaxisx" SecKeys="joystick0arrow0" Type="AxisX" GroupID="0" Order="2000"/>
-    <Input Event="ViewPitch" Name="UI_Event_ViewPitch" Tooltip="UI_Event_ViewPitch_Tooltip" Keys="leftctrl + mouseaxisy" SecKeys="joystick0arrow0" Type="AxisY" GroupID="0" Order="2100"/>
+    <Input Event="ViewYaw" Name="UI_Event_ViewYaw" Tooltip="UI_Event_ViewYaw_Tooltip" SecKeys="joystick0arrow0" Type="AxisX" GroupID="0" Order="2000"/>
+    <Input Event="ViewPitch" Name="UI_Event_ViewPitch" Tooltip="UI_Event_ViewPitch_Tooltip" SecKeys="joystick0arrow0" Type="AxisY" GroupID="0" Order="2100"/>
     <Input Event="CapYaw" Name="UI_Event_Yaw" Tooltip="UI_Event_Yaw_Tooltip" SecKeys="joystick1axis0" Type="AxisX" GroupID="1" Order="10000"/>
     <Input Event="CapYawLeft" Name="UI_Event_YawLeft" Tooltip="UI_Event_YawLeft_Tooltip" Keys="a" Type="ToggleButton" GroupID="1" Order="10100"/>
     <Input Event="CapYawRight" Name="UI_Event_YawRight" Tooltip="UI_Event_YawRight_Tooltip" Keys="d" Type="ToggleButton" GroupID="1" Order="10200"/>
@@ -110,7 +110,7 @@
     <Input Event="CapshipTurn" Name="UI_Event_CapshipTurn" Tooltip="UI_Event_CapshipTurn_Tooltip" Keys="leftshift" Type="ToggleButton" GroupID="1" Order="11900"/>
     <Input Event="CapViewYaw" Name="UI_Event_ViewYaw" Tooltip="UI_Event_ViewYaw_Tooltip" Keys="mouseaxisx" SecKeys="joystick0arrow0" Type="AxisX" GroupID="1" Order="12000"/>
     <Input Event="CapViewPitch" Name="UI_Event_ViewPitch" Tooltip="UI_Event_ViewPitch_Tooltip" Keys="mouseaxisy" SecKeys="joystick0arrow0" Type="AxisY" GroupID="1" Order="12100"/>
-    <Input Event="SetTargetSpeed" Name="UI_Event_SetTargetSpeed" Tooltip="UI_Event_SetTargetSpeed_Tooltip" Reverse="true" Type="Throttle" GroupID="2" Order="20000"/>
+    <Input Event="SetTargetSpeed" Name="UI_Event_SetTargetSpeed" Tooltip="UI_Event_SetTargetSpeed_Tooltip" Keys="joystick0axis3" Reverse="true" Type="Throttle" GroupID="2" Order="20000"/>
     <Input Event="TargetSpeed0" Name="UI_Event_TargetSpeed0" Tooltip="UI_Event_TargetSpeed0_Tooltip" Keys="leftctrl + 1" Type="ToggleButton" GroupID="2" Order="20100"/>
     <Input Event="TargetSpeed1" Name="UI_Event_TargetSpeed1" Tooltip="UI_Event_TargetSpeed1_Tooltip" Keys="leftctrl + 2" Type="ToggleButton" GroupID="2" Order="20200"/>
     <Input Event="TargetSpeed2" Name="UI_Event_TargetSpeed2" Tooltip="UI_Event_TargetSpeed2_Tooltip" Keys="leftctrl + 3" Type="ToggleButton" GroupID="2" Order="20300"/>
@@ -121,7 +121,7 @@
     <Input Event="TargetSpeed7" Name="UI_Event_TargetSpeed7" Tooltip="UI_Event_TargetSpeed7_Tooltip" Keys="leftctrl + 8" Type="ToggleButton" GroupID="2" Order="20800"/>
     <Input Event="TargetSpeed8" Name="UI_Event_TargetSpeed8" Tooltip="UI_Event_TargetSpeed8_Tooltip" Keys="leftctrl + 9" Type="ToggleButton" GroupID="2" Order="20900"/>
     <Input Event="TargetSpeed9" Name="UI_Event_TargetSpeed9" Tooltip="UI_Event_TargetSpeed9_Tooltip" Keys="leftctrl + 0" Type="ToggleButton" GroupID="2" Order="21000"/>
-    <Input Event="DeltaTargetSpeed" Name="UI_Event_DeltaTargetSpeed" Tooltip="UI_Event_DeltaTargetSpeed_Tooltip" Keys="mousewheel" SecKeys="joystick0axis3" Reverse="true" Type="AxisY" GroupID="2" Order="21100"/>
+    <Input Event="DeltaTargetSpeed" Name="UI_Event_DeltaTargetSpeed" Tooltip="UI_Event_DeltaTargetSpeed_Tooltip" Keys="mousewheel" SecKeys="" Reverse="true" Type="AxisY" GroupID="2" Order="21100"/>
     <Input Event="IncrTargetSpeed" Name="UI_Event_IncrTargetSpeed" Tooltip="UI_Event_IncrTargetSpeed_Tooltip" Keys="keypadplus" Type="ToggleButton" GroupID="2" Order="21200"/>
     <Input Event="DecrTargetSpeed" Name="UI_Event_DecrTargetSpeed" Tooltip="UI_Event_DecrTargetSpeedTooltip" Keys="keypadminus" Type="ToggleButton" GroupID="2" Order="21300"/>
     <Input Event="PrevTargetSpeed" Name="UI_Event_PrevTargetSpeed" Tooltip="UI_Event_PrevTargetSpeed_Tooltip" Keys="pagedown" Type="ToggleButton" GroupID="2" Order="21500"/>
@@ -130,14 +130,14 @@
     <Input Event="AutoAssist" Name="UI_Event_AutoAssist" Tooltip="UI_Event_AutoAssist_Tooltip" Keys="backslash" SecKeys="joystick0button2" Type="ToggleButton" GroupID="2" Order="21700"/>
     <Input Event="RotationAssist" Name="UI_Event_RotationAssist" Tooltip="UI_Event_RotationAssist_Tooltip" Type="ToggleButton" GroupID="2" Order="21800"/>
     <Input Event="SwitchFormation" Name="UI_Event_SwitchFormation" Tooltip="UI_Event_SwitchFormation_Tooltip" Keys="b" SecKeys="joystick0button1" Type="ToggleButton" GroupID="2" Order="21900"/>
-    <Input Event="SwitchFormationFree" Name="UI_Event_SwitchFormationFree" Tooltip="UI_Event_SwitchFormationFree_Tooltip" Type="ToggleButton" GroupID="2" Order="22000"/>
+    <Input Event="SwitchFormationFree" Name="UI_Event_SwitchFormationFree" Tooltip="UI_Event_SwitchFormationFree_Tooltip" SecKeys="rightctrl + joystick0button0 + joystick0button1" Type="ToggleButton" GroupID="2" Order="22000"/>
     <Input Event="SwitchFormationMatchVelocity" Name="UI_Event_SwitchFormationMatchVelocity" Tooltip="UI_Event_SwitchFormationMatchVelocity_Tooltip" Type="ToggleButton" GroupID="2" Order="22100"/>
     <Input Event="SwitchFormationChaseBehind" Name="UI_Event_SwitchFormationChaseBehind" Tooltip="UI_Event_SwitchFormationChaseBehind_Tooltip" Type="ToggleButton" GroupID="2" Order="22200"/>
     <Input Event="SwitchFormationFixed" Name="UI_Event_SwitchFormationFixed" Tooltip="UI_Event_SwitchFormationFixed_Tooltip" Type="ToggleButton" GroupID="2" Order="22300"/>
     <Input Event="SwitchFormationOrbit" Name="UI_Event_SwitchFormationOrbit" Tooltip="UI_Event_SwitchFormationOrbit_Tooltip" Type="ToggleButton" GroupID="2" Order="22400"/>
     <Input Event="PrimaryFire" Name="UI_Event_PrimaryFire" Tooltip="UI_Event_PrimaryFire_Tooltip" Keys="mousebuttonleft" SecKeys="joystick1button0" Type="AnalogButton" GroupID="3" Order="30000"/>
     <Input Event="ChaffFire" Name="UI_Event_ChaffFire" Tooltip="UI_Event_ChaffFire_Tooltip" Keys="mousebuttonmiddle" SecKeys="joystick1button2" Type="ToggleButton" GroupID="3" Order="30300"/>
-    <Input Event="WeaponsMenu" Name="UI_Event_Weapons_Menu" Tooltip="UI_Event_Weapons_Menu_Tooltip" Keys="mousebuttonright" Type="ToggleButton" GroupID="3" Order="30400"/>
+    <Input Event="WeaponsMenu" Name="UI_Event_Weapons_Menu" Tooltip="UI_Event_Weapons_Menu_Tooltip" Keys="mousebuttonright" SecKeys="joystick0button14" Type="ToggleButton" GroupID="3" Order="30400"/>
     <Input Event="TargetCenter" Name="UI_Event_TargetCenter" Tooltip="UI_Event_TargetCenter_Tooltip" Keys="t" SecKeys="joystick1button16" Type="ToggleButton" GroupID="3" Order="30500"/>
     <Input Event="TargetPrev" Name="UI_Event_TargetPrev" Tooltip="UI_Event_TargetPrev_Tooltip" Keys="y" SecKeys="joystick1button19" Type="ToggleButton" GroupID="3" Order="30700"/>
     <Input Event="TargetNext" Name="UI_Event_TargetNext" Tooltip="UI_Event_TargetNext_Tooltip" Keys="u" SecKeys="joystick1button17" Type="ToggleButton" GroupID="3" Order="30600"/>
@@ -179,8 +179,8 @@
     <Input Event="ViewDist" Name="UI_Event_ViewDist" Tooltip="UI_Event_ViewDist_Tooltip" Keys="leftctrl + mousewheel" SecKeys="joystick1axis3" Type="Throttle" GroupID="5" Order="50400"/>
     <Input Event="Zoom" Name="UI_Event_Zoom" Tooltip="UI_Event_Zoom_Tooltip" Keys="z" SecKeys="joystick1button9" Type="ToggleButton" GroupID="5" Order="50500"/>
     <Input Event="CycleZoomMode" Name="UI_Event_CycleZoomMode" Tooltip="UI_Event_CycleZoomMode_Tooltip" SecKeys="rightctrl + joystick0button0 + joystick1button9" Type="ToggleButton" GroupID="5" Order="50600"/>
-    <Input Event="CursorX" Name="UI_Event_CursorX" Tooltip="UI_Event_CursorX_Tooltip" Keys="mouseaxisx" Type="AxisX" GroupID="6" Order="60000"/>
-    <Input Event="CursorY" Name="UI_Event_CursorY" Tooltip="UI_Event_CursorY_Tooltip" Keys="mouseaxisy" Type="AxisY" GroupID="6" Order="60100"/>
+    <Input Event="CursorX" Name="UI_Event_CursorX" Tooltip="UI_Event_CursorX_Tooltip" Keys="mouseaxisx" SecKeys="joystick1axis0" Type="AxisX" GroupID="6" Order="60000"/>
+    <Input Event="CursorY" Name="UI_Event_CursorY" Tooltip="UI_Event_CursorY_Tooltip" Keys="mouseaxisy" SecKeys="joystick1axis1" Type="AxisY" GroupID="6" Order="60100"/>
     <Input Event="Select" Name="UI_Event_Select" Tooltip="UI_Event_Select_Tooltip" Keys="space" SecKeys="joystick1button0" Type="ToggleButton" GroupID="6" Order="60200"/>
     <Input Event="Back" Name="UI_Event_Back" Tooltip="UI_Event_Back_Tooltip" Keys="escape" Type="ToggleButton" GroupID="6" Order="60300" IgnoreConflicts="MainMenu"/>
     <Input Event="Previous" Name="UI_Event_Previous" Tooltip="UI_Event_Previous_Tooltip" SecKeys="joystick1button19" Type="ToggleButton" GroupID="6" Order="60500"/>
@@ -197,7 +197,7 @@
     <Input Event="ScanMode" Name="UI_Event_ScanMode" Tooltip="UI_Event_ScanMode_Tooltip" SecKeys="joystick0button5" Type="ToggleButton" GroupID="4" Order="40650"/>
     <Input Event="CycleWeapons" Name="UI_Event_CycleWeapons" Tooltip="UI_Event_CycleWeapons_Tooltip" SecKeys="joystick1button1" Type="ToggleButton" GroupID="3" Order="30100"/>
     <Input Event="FlightMenu" Name="UI_Event_Flight_Menu" Tooltip="UI_Event_Flight_Menu_Tooltip" Keys="x" SecKeys="joystick0button12" Type="ToggleButton" GroupID="4" Order="40150"/>
-    <Input Event="ViewLeft" Name="UI_Event_ViewLeft" Tooltip="UI_Event_ViewLeft_Tooltip" Keys="keypad4" Type="ToggleButton" GroupID="5" Order="50450"/>
+    <Input Event="ViewLeft" Name="UI_Event_ViewLeft" Tooltip="UI_Event_ViewLeft_Tooltip" Keys="keypad4" SecKeys="" Type="ToggleButton" GroupID="5" Order="50450"/>
     <Input Event="ViewRight" Name="UI_Event_ViewRight" Tooltip="UI_Event_ViewRight_Tooltip" Keys="keypad6" Type="ToggleButton" GroupID="5" Order="50455"/>
     <Input Event="ViewCenter" Name="UI_Event_ViewCenter" Tooltip="UI_Event_ViewCenter_Tooltip" Keys="keypad5" Type="ToggleButton" GroupID="5" Order="50460"/>
     <Input Event="ViewDown" Name="UI_Event_ViewDown" Tooltip="UI_Event_ViewDown_Tooltip" Keys="keypad2" Type="ToggleButton" GroupID="5" Order="50465"/>
