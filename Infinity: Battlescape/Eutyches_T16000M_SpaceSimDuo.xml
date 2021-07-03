@@ -7,10 +7,10 @@
             <Identifier>DirectInput:{001E36B7-5DBA-4C4F-A8C9-044FB10A0000}</Identifier>
             <NameFilter/>
             <ForceFeedback>false</ForceFeedback>
-            <Axis ID="0" Type="Auto" Deadzone="0.07" Power="1.0"/>
-            <Axis ID="1" Type="Auto" Deadzone="0.07" Power="1.0"/>
-            <Axis ID="2" Type="Auto" Deadzone="0.0" Power="1.0"/>
-            <Axis ID="3" Type="Auto" Deadzone="0.07" Power="1.0"/>
+            <Axis ID="0" Type="Auto" Deadzone="0.07" Power="2.02289605"/>
+            <Axis ID="1" Type="Auto" Deadzone="0.07" Power="2.02289605"/>
+            <Axis ID="2" Type="Auto" Deadzone="0.0" Power="2.00433159"/>
+            <Axis ID="3" Type="Auto" Deadzone="0.0" Power="1.9672029"/>
             <Axis ID="4" Type="Auto" Deadzone="0.07" Power="1.0"/>
             <Axis ID="5" Type="Auto" Deadzone="0.0" Power="1.0"/>
             <Axis ID="6" Type="Auto" Deadzone="0.0" Power="1.0"/>
@@ -21,10 +21,10 @@
             <Identifier>DirectInput:{001E36B7-5DBA-4C4F-A8C9-044FB10A0001}</Identifier>
             <NameFilter/>
             <ForceFeedback>false</ForceFeedback>
-            <Axis ID="0" Type="Auto" Deadzone="0.07" Power="1.0"/>
-            <Axis ID="1" Type="Auto" Deadzone="0.07" Power="1.0"/>
-            <Axis ID="2" Type="Auto" Deadzone="0.0" Power="1.0"/>
-            <Axis ID="3" Type="Auto" Deadzone="0.07" Power="1.0"/>
+            <Axis ID="0" Type="Auto" Deadzone="0.07" Power="1.9672029"/>
+            <Axis ID="1" Type="Auto" Deadzone="0.07" Power="2.00433159"/>
+            <Axis ID="2" Type="Auto" Deadzone="0.0" Power="2.07858896"/>
+            <Axis ID="3" Type="Auto" Deadzone="0.0" Power="2.02289605"/>
             <Axis ID="4" Type="Auto" Deadzone="0.07" Power="1.0"/>
             <Axis ID="5" Type="Auto" Deadzone="0.0" Power="1.0"/>
             <Axis ID="6" Type="Auto" Deadzone="0.0" Power="1.0"/>
@@ -121,7 +121,7 @@
     <Input Event="TargetSpeed7" Name="UI_Event_TargetSpeed7" Tooltip="UI_Event_TargetSpeed7_Tooltip" Keys="leftctrl + 8" Type="ToggleButton" GroupID="2" Order="20800"/>
     <Input Event="TargetSpeed8" Name="UI_Event_TargetSpeed8" Tooltip="UI_Event_TargetSpeed8_Tooltip" Keys="leftctrl + 9" Type="ToggleButton" GroupID="2" Order="20900"/>
     <Input Event="TargetSpeed9" Name="UI_Event_TargetSpeed9" Tooltip="UI_Event_TargetSpeed9_Tooltip" Keys="leftctrl + 0" Type="ToggleButton" GroupID="2" Order="21000"/>
-    <Input Event="DeltaTargetSpeed" Name="UI_Event_DeltaTargetSpeed" Tooltip="UI_Event_DeltaTargetSpeed_Tooltip" Keys="mousewheel" SecKeys="" Reverse="true" Type="AxisY" GroupID="2" Order="21100"/>
+    <Input Event="DeltaTargetSpeed" Name="UI_Event_DeltaTargetSpeed" Tooltip="UI_Event_DeltaTargetSpeed_Tooltip" Keys="mousewheel" Reverse="true" Type="AxisY" GroupID="2" Order="21100"/>
     <Input Event="IncrTargetSpeed" Name="UI_Event_IncrTargetSpeed" Tooltip="UI_Event_IncrTargetSpeed_Tooltip" Keys="keypadplus" Type="ToggleButton" GroupID="2" Order="21200"/>
     <Input Event="DecrTargetSpeed" Name="UI_Event_DecrTargetSpeed" Tooltip="UI_Event_DecrTargetSpeedTooltip" Keys="keypadminus" Type="ToggleButton" GroupID="2" Order="21300"/>
     <Input Event="PrevTargetSpeed" Name="UI_Event_PrevTargetSpeed" Tooltip="UI_Event_PrevTargetSpeed_Tooltip" Keys="pagedown" Type="ToggleButton" GroupID="2" Order="21500"/>
@@ -175,12 +175,12 @@
     <Input Event="CameraCockpitMode" Name="UI_Event_CameraCockpitMode" Tooltip="UI_Event_CameraCockpitMode_Tooltip" Keys="f1" SecKeys="joystick1button4" Type="ToggleButton" GroupID="5" Order="50000"/>
     <Input Event="CameraExternalMode" Name="UI_Event_CameraExternalMode" Tooltip="UI_Event_CameraExternalMode_Tooltip" Keys="f2" SecKeys="joystick1button5" Type="ToggleButton" GroupID="5" Order="50100"/>
     <Input Event="CameraNextMode" Name="UI_Event_CameraNextMode" Tooltip="UI_Event_CameraNextMode_Tooltip" SecKeys="joystick1button6" Type="ToggleButton" GroupID="5" Order="50200"/>
-    <Input Event="ViewReset" Name="UI_Event_ViewReset" Tooltip="UI_Event_ViewReset_Tooltip" Keys="leftctrl" DoubleTap="true" Type="ToggleButton" GroupID="5" Order="50300"/>
-    <Input Event="ViewDist" Name="UI_Event_ViewDist" Tooltip="UI_Event_ViewDist_Tooltip" Keys="leftctrl + mousewheel" SecKeys="joystick1axis3" Type="Throttle" GroupID="5" Order="50400"/>
+    <Input Event="ViewReset" Name="UI_Event_ViewReset" Tooltip="UI_Event_ViewReset_Tooltip" Keys="leftctrl" SecKeys="rightctrl" DoubleTap="true" Type="ToggleButton" GroupID="5" Order="50300"/>
+    <Input Event="ViewDist" Name="UI_Event_ViewDist" Tooltip="UI_Event_ViewDist_Tooltip" Keys="" SecKeys="joystick1axis3" Type="Throttle" GroupID="5" Order="50400"/>
     <Input Event="Zoom" Name="UI_Event_Zoom" Tooltip="UI_Event_Zoom_Tooltip" Keys="z" SecKeys="joystick1button9" Type="ToggleButton" GroupID="5" Order="50500"/>
     <Input Event="CycleZoomMode" Name="UI_Event_CycleZoomMode" Tooltip="UI_Event_CycleZoomMode_Tooltip" SecKeys="rightctrl + joystick0button0 + joystick1button9" Type="ToggleButton" GroupID="5" Order="50600"/>
-    <Input Event="CursorX" Name="UI_Event_CursorX" Tooltip="UI_Event_CursorX_Tooltip" Keys="mouseaxisx" SecKeys="joystick1axis0" Type="AxisX" GroupID="6" Order="60000"/>
-    <Input Event="CursorY" Name="UI_Event_CursorY" Tooltip="UI_Event_CursorY_Tooltip" Keys="mouseaxisy" SecKeys="joystick1axis1" Type="AxisY" GroupID="6" Order="60100"/>
+    <Input Event="CursorX" Name="UI_Event_CursorX" Tooltip="UI_Event_CursorX_Tooltip" SecKeys="joystick1axis0" Type="AxisX" GroupID="6" Order="60000"/>
+    <Input Event="CursorY" Name="UI_Event_CursorY" Tooltip="UI_Event_CursorY_Tooltip" SecKeys="joystick1axis1" Type="AxisY" GroupID="6" Order="60100"/>
     <Input Event="Select" Name="UI_Event_Select" Tooltip="UI_Event_Select_Tooltip" Keys="space" SecKeys="joystick1button0" Type="ToggleButton" GroupID="6" Order="60200"/>
     <Input Event="Back" Name="UI_Event_Back" Tooltip="UI_Event_Back_Tooltip" Keys="escape" Type="ToggleButton" GroupID="6" Order="60300" IgnoreConflicts="MainMenu"/>
     <Input Event="Previous" Name="UI_Event_Previous" Tooltip="UI_Event_Previous_Tooltip" SecKeys="joystick1button19" Type="ToggleButton" GroupID="6" Order="60500"/>
@@ -197,7 +197,7 @@
     <Input Event="ScanMode" Name="UI_Event_ScanMode" Tooltip="UI_Event_ScanMode_Tooltip" SecKeys="joystick0button5" Type="ToggleButton" GroupID="4" Order="40650"/>
     <Input Event="CycleWeapons" Name="UI_Event_CycleWeapons" Tooltip="UI_Event_CycleWeapons_Tooltip" SecKeys="joystick1button1" Type="ToggleButton" GroupID="3" Order="30100"/>
     <Input Event="FlightMenu" Name="UI_Event_Flight_Menu" Tooltip="UI_Event_Flight_Menu_Tooltip" Keys="x" SecKeys="joystick0button12" Type="ToggleButton" GroupID="4" Order="40150"/>
-    <Input Event="ViewLeft" Name="UI_Event_ViewLeft" Tooltip="UI_Event_ViewLeft_Tooltip" Keys="keypad4" SecKeys="" Type="ToggleButton" GroupID="5" Order="50450"/>
+    <Input Event="ViewLeft" Name="UI_Event_ViewLeft" Tooltip="UI_Event_ViewLeft_Tooltip" Keys="keypad4" Type="ToggleButton" GroupID="5" Order="50450"/>
     <Input Event="ViewRight" Name="UI_Event_ViewRight" Tooltip="UI_Event_ViewRight_Tooltip" Keys="keypad6" Type="ToggleButton" GroupID="5" Order="50455"/>
     <Input Event="ViewCenter" Name="UI_Event_ViewCenter" Tooltip="UI_Event_ViewCenter_Tooltip" Keys="keypad5" Type="ToggleButton" GroupID="5" Order="50460"/>
     <Input Event="ViewDown" Name="UI_Event_ViewDown" Tooltip="UI_Event_ViewDown_Tooltip" Keys="keypad2" Type="ToggleButton" GroupID="5" Order="50465"/>
